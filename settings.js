@@ -11,8 +11,9 @@ global.APIKeys = {
 	'https://zenzapis.xyz': 'your key',
 }
 
-global.alivemsg = `📤I am alive now😇
-🤷‍♀️How can I help you?😉` //Costomize Alive Message (type your message in `` )
+global.alivemsg = `*මොකද අලේ මන් ඔන්ලයි තමා ඉල්ලෙ අප්පා🤪 හාපෝ ඉතින් ඔයාලගෙන් තීන වදේ😇
+🤷‍♀️උඩ බලන් ඉන්නේ නැතුව දැන් ඉතින් කීනෝ මන් මොකද්ද කරන්න ඔනී😉*` //Costomize Alive Message (type your message in `Congratulations
+` )
 
 
 global.autoTyping = false //auto tying in gc (true to on, false to off)
@@ -29,57 +30,71 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owner v card
-global.vcardowner = ['+380944814219'] // owner number
-global.ownername = "😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯" // owner name
-global.ytname = "" // yt chanel name
-global.socialm = "GitHub: prabhasha2006" // github or insta name
-global.location = "India, Mizoram, Aizawl" // location
+global.vcardowner = ['+94721559919'] //ur owner number
+global.ownername = "😎ᴄʜᴀᴍɪᴋᴀʀᴀ ꜱʜᴇʜᴀɴ❯❯" //ur owner name
+global.ytname = "https://www.facebook.com/CSETV1/" //ur yt chanel name
+global.socialm = "GitHub: prabhasha2006" //ur github or insta name
+global.location = "India, Mizoram, Aizawl" //ur location
 
 //bot body 
 global.alivepic = `https://i.ibb.co/cyyCjN7/20220803-081426.png` // alive picture \\ use "https://ibb.com" to upload photos. < 1 MB
 
-global.dragonchat = "false"  // chat bot  "true" / "false" (200 auto replies in this)
-global.callblock = "false" // call block "true" / "false" ("true"  to block callers)
-global.antibad = "false" // To remove bad word senders
-global.antilink = "false" // To remove group link sharing peoples
-global.upsongvoice = "true" // bot can upload song as voice note (it use your data and storage bacause auto download) you can put "false" (anyone can't get songs as voice note / your data is not wasted)
+global.dragonchat = "true"  // chat bot  "true" / "false" (200 auto replies in this)
 
-global.owner = ['+380944814219']
-global.ownertag = '+380944814219' //your tag number
-global.botname = '𝙍𝙀𝘿╺ 𝘿𝙍𝘼𝙂𝙊𝙉 - 𝘉𝘖𝘛' //ur bot name
+global.callblock === "false" // call block "true" / "false" (CALL ගන්න අය block කිරීමට "true")
+
+global.owner = ['+94721559919']
+global.ownertag = '+94721559919' //ur tag number
+global.botname = 'ᴄʜᴀᴍɪᴋᴀʀᴀ ꜱʜᴇʜᴀɴ' //ur bot name
 global.packname = "Bot Sticker" // sticker packname
-global.author = "𝙍𝙀𝘿╺ 𝘿𝙍𝘼𝙂𝙊𝙉" // sticker author
+global.author = "ᴄʜᴀᴍɪᴋᴀʀᴀ ꜱʜᴇʜᴀɴ" // sticker author
 global.dragonemoji = '🧩' // Menu emoji
-global.footer = '[ ◉ ʀᴇᴅ-ᴅʀᴀɢᴏɴ-ᴍᴅ ]' //
+global.footer = '[ ◉ 𝒞𝒮𝐸 𝒯𝒱  𝒫𝑅𝒪𝒟𝒰𝒞𝒯𝐼𝒪𝒩 ]' //In list menu
 
-global.button = '☰ GITHUB ☰' //Costomize A Button Name In Alive Message
-global.btnurl = 'https://github.com/prabhasha2006' //Change Your Button's URL
+global.button = '☰ ≼T≽≼I≽≼K≽ ≼T≽≼O≽≼K≽ ☰' //Costomize A Button Name In Alive Message
+global.btnurl = 'tiktok.com/@chamikara_shehan' //Change Your Button's URL
 
-//database
-global.premium = ['+380944814219'] //ur premium numbers
+//damtabase
+global.premium = ['+94721559919'] //ur premium numbers
+global.ntilinkytvid = []
+global.ntilinkytch = []
+global.ntilinkig = []
+global.ntilinkfb = []
+global.ntilinktg = []
+global.ntilinktt = []
+global.ntilinktwt = []
+global.ntilinkall = []
+global.nticall = []
+global.ntwame = []
+global.nttoxic = []
+global.ntnsfw = []
+global.ntvirtex = []
+global.rkyt = []
+global.wlcm = []
+global.gcrevoke = []
+global.autorep = []
+global.ntilink = []
 
-//other
+//omther
 global.sessionName = 'session'
 global.antitags = false
 global.prefa = ['','!','.','😂','❤️','💠'] //Command Prefix eg:(.alive ,alive 😂alive)
 global.sp = '💠'
 global.mess = {
     success: 'Done ✅',
-    admin: 'Only Admins can use it!😉',
-    botAdmin: 'Bot wants to be an Admin😥',
-    owner: 'Only Owner can use this!😉',
+    admin: 'මගේ එකාට විතරයි හ්ම්ම්!😉',
+    botAdmin: 'මට මගේ එකාව ඔනී...😥',
+    owner: 'මගේ එකාට විතලයි අලේ!😉',
     group: 'Feature Used Only For Groups!',
     private: 'This Features Only For Private Chat!',
     bot: 'This Feature Is Only For Bot😝',
-    wait: '👉👈Pleas Wait...',
+    wait: '👉👈අලේ ටිකක් ඉල්ලකෝ...',
     error: 'Error!!! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     linkm: 'Where is the link?',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban',
-    badwords: '*🚫Bad Words Not Allowed Here !*\n\n⚠️ Warning... ⚠️',
-    caption: 'Generated by: ◉ *ʀᴇᴅ-ᴅʀᴀɢᴏɴ-ʙᴏᴛ*'
-} // END \\
+    banChat: 'The bot was banned in this group, please contact the owner to unban'
+}
     global.limitawal = {
     premium: "Infinity",
     free: 12,
@@ -104,24 +119,7 @@ global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutpu
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 
-global.ntilinkytvid = []
-global.ntilinkytch = []
-global.ntilinkig = []
-global.ntilinkfb = []
-global.ntilinktg = []
-global.ntilinktt = []
-global.ntilinktwt = []
-global.ntilinkall = []
-global.nticall = []
-global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
-global.ntvirtex = []
-global.rkyt = []
-global.wlcm = []
-global.gcrevoke = []
-global.autorep = []
-global.ntilink = []
+
 
 
 
@@ -166,7 +164,7 @@ global.rep = { // All Replies = 145
     K3: '😉🫶හායි😂',
     K4: '🥴හූයි😊',
     K5: '😂හේයි, හව් ආ යූ🥴✌️',
-    K6: '😁Hey there💝 I am WhatsApp Bot😏',
+    K6: '😁හායි පැට්ටෝ💝 මාට කොල්ලෙක් ඉන්නෝ හරිතේ😏',
     K7: '❣️ඇයි හලෝ😌',
     K8: '🙃මොකෝ හලෝ🥲',
     K9: '😒මොකෝ?',
